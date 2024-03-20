@@ -8,7 +8,4 @@ public class LightWeightBotApplication {
     public static void main(String[] args) {
         SpringApplication.run(LightWeightBotApplication.class, args);
     }
-
-    int a;
-    int v;
 }

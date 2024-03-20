@@ -31,7 +31,7 @@ public class DataBaseHandler {
     }
 
     boolean checkElement(String name) {
-        String url = "jdbc:mysql://localhost:3306/visiters";
+        String url = "jdbc:mysql://127.0.0.1:3306/visiters";
         String username = "timur";
         String password = "12052005";
         try (Connection connection = DriverManager.getConnection(url, username, password)) {

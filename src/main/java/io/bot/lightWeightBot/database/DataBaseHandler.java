@@ -37,7 +37,7 @@ public class DataBaseHandler {
         try (Connection connection = DriverManager.getConnection(url, username, password)) {
             String sql = "SELECT * FROM users WHERE user_name = ?";
             PreparedStatement statement = connection.prepareStatement(sql);
-            statement.setString(1, name); // Замените 123 на значение, которое вы хотите проверить
+            statement.setString(1, name); 
 
             ResultSet resultSet = statement.executeQuery();
 
